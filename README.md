@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Pedro Cardoso</h1>
 <h3 align="center">Dev PHP Senior</h3>
+
 - PHP Developer and curious!
+
 - 🔭 I’m currently working on [TrackerUp](https://trackerup.com.br/)
 
 ## 🚀💻 Technologies & Tools
