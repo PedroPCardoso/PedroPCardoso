@@ -1,10 +1,5 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" height="250px" style="object-fit:cover; border-radius: 10px;">
-  
-  <br/>
-  
-  <h1>Olá! Eu sou João Pedro Cardoso 👋</h1>
-  <h3>Senior Full-Stack Developer | PHP & Laravel Specialist</h3>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:24283b,100:7aa2f7&height=210&section=header&text=Jo%C3%A3o%20Pedro%20Cardoso&fontSize=44&fontColor=c0caf5&fontAlignY=35&desc=Senior%20Full-Stack%20Developer%20%E2%80%A2%20PHP%20%E2%80%A2%20Laravel%20%E2%80%A2%20Vue%20%E2%80%A2%20Node&descSize=16&descAlignY=55" width="100%" alt="banner"/>
 
   <p>
     <a href="https://www.linkedin.com/in/eupedrocardoso/" target="_blank">
@@ -17,21 +12,71 @@
       <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
     </a>
   </p>
+
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=7AA2F7&center=true&vCenter=true&width=600&lines=Building+Metrics+Kit+%26+Startup+Kit;8%2B+years+shipping+PHP%2C+Laravel+%26+Vue;Turning+legacy+systems+into+scalable+platforms" alt="typing"/>
 </div>
 
-<br/>
+## 👨‍💻 About Me
 
-## 👨‍💻 Sobre Mim
+Software engineer with **8+ years of experience**, specialized in the **PHP, Laravel and Vue.js** ecosystems. Proven track record in legacy-system modernization, performance optimization and delivering scalable applications. Currently focused on **software architecture** and **high-performance full-stack development**.
 
-Sou um Engenheiro de Software apaixonado com **8+ anos de experiência**, especializado em ecossistemas **PHP, Laravel e Vue.js**. Tenho um histórico comprovado em modernização de sistemas legados, otimização de performance e entrega de aplicações escaláveis. Atualmente, focado em transformar desafios complexos em soluções elegantes.
-
-*   🌍 **Localização:** Conceição do Jacuípe - BA, Brasil
-*   🗣️ **Idiomas:** Português (Nativo), Inglês (Intermediário)
-*   💼 **Foco Atual:** Arquitetura de Software e Desenvolvimento Full-Stack de Autodesempenho
+- 🌍 **Location:** Conceição do Jacuípe — BA, Brazil (remote)
+- 🗣️ **Languages:** Portuguese (native), English (intermediate)
+- 💼 **Now:** Full-Stack Developer at **MaxFinance** (Portugal) — rewriting a legacy C# platform in Laravel + Vue
+- 📫 **Reach me:** [pedroecomp@gmail.com](mailto:pedroecomp@gmail.com)
 
 ---
 
-## 🚀 Stack Tecnológico
+## 🔨 Featured Projects
+
+### 📊 Metrics Kit
+
+Chart-ready **metrics & trends from your database** through a single fluent TypeScript API. One ORM-agnostic engine with adapters for **TypeORM, Prisma and Drizzle**, running on PostgreSQL, MySQL/MariaDB and SQLite — published on npm with CI, dual CJS/ESM builds and full type declarations.
+
+<p>
+  <a href="https://www.npmjs.com/package/nestjs-metrics"><img src="https://img.shields.io/npm/v/nestjs-metrics?style=flat-square&logo=npm" alt="npm"/></a>
+  <a href="https://github.com/PedroPCardoso/metrics-kit/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/PedroPCardoso/metrics-kit/ci.yml?style=flat-square&logo=githubactions&logoColor=white" alt="CI"/></a>
+  <img src="https://img.shields.io/npm/l/nestjs-metrics?style=flat-square" alt="license"/>
+</p>
+
+```ts
+this.metrics
+  .query(orderRepo.createQueryBuilder('orders'))
+  .sumByMonth('amount', 12)
+  .fillMissingData()
+  .trends();
+// → { labels: ['January', ...], data: [1200, ...] }
+```
+
+### 🧱 Startup Kit
+
+A **modular backend foundation for SaaS products** in PHP 8.4 / Laravel 12 — clean architecture (DDD + CQRS + ports & adapters), an event bus with transactional outbox, resilient drivers and swappable persistence (Postgres, MySQL, Mongo, in-memory), all contract-tested.
+
+| Module | What it provides |
+| --- | --- |
+| [`startup-kit-core`](https://github.com/PedroPCardoso/startup-kit-core) | CQRS buses & middleware, event bus + outbox, resilient drivers, tracing, logging, health endpoints |
+| [`startup-kit-users`](https://github.com/PedroPCardoso/startup-kit-users) | User registration & management domain |
+| [`startup-kit-payments`](https://github.com/PedroPCardoso/startup-kit-payments) | Payment processing with multi-gateway support (Stripe, Mercado Pago) |
+| [`startup-kit-orders`](https://github.com/PedroPCardoso/startup-kit-orders) | Order & order-line management domain |
+| [`startup-kit-subscriptions`](https://github.com/PedroPCardoso/startup-kit-subscriptions) | Recurring subscription management |
+| [`startup-kit-notifications`](https://github.com/PedroPCardoso/startup-kit-notifications) | Multi-channel notifications (SendGrid, Twilio, Telegram) |
+
+### 🚗 OmniAuto
+
+Full-featured **driving-school CRM** — students, instructors, vehicles, scheduling, exams, finance and a pipeline kanban. **Laravel 11 · Vue 3 · Inertia v2 · Tailwind · PostgreSQL · Redis · Docker.**
+
+<div align="center">
+  <a href="https://github.com/PedroPCardoso/metrics-kit">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=pedropcardoso&repo=metrics-kit&theme=tokyonight" alt="metrics-kit"/>
+  </a>
+  <a href="https://github.com/PedroPCardoso/OmniAuto">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=pedropcardoso&repo=OmniAuto&theme=tokyonight" alt="OmniAuto"/>
+  </a>
+</div>
+
+---
+
+## 🚀 Tech Stack
 
 <div align="center">
 
@@ -62,55 +107,55 @@ Sou um Engenheiro de Software apaixonado com **8+ anos de experiência**, especi
 
 ---
 
-## 💼 Experiência Profissional
+## 💼 Experience
 
-### Tudo sobre o meu trabalho atual e anteriores
+**MaxFinance** — Full-Stack Developer · *Nov 2023 – present*
+Credit intermediation platform in Portugal. Rewriting a legacy C# system in **Laravel + Vue**, building an integrated webmail (Outlook support) and back-office, and setting up CI/CD for continuous deployment.
 
-#### **MaxFinance** | Full-Stack Developer
-*Nov 2023 - Presente*
-> Soluções sob medida de intermediação de crédito em Portugal.
-- 🔄 Reescrevendo sistema legado de C# para **Laravel & Vue**.
-- 📧 Desenvolvimento de webmail integrado (Outlook support) e sistema de backoffice.
-- 🚀 Implementação de CI/CD para deployment contínuo.
+**Infracommerce** — Full-Stack Developer · *Apr 2022 – Nov 2023*
+White-label e-commerce for major brands (Samsung, Nike, Arno). Dynamic cart-pricing features, high-volume query optimization, and codebase standardization with PSRs and design patterns.
 
-#### **Infracommerce** | Full-Stack Developer
-*Abr 2022 - Nov 2023*
-> E-commerce whitelabel para grandes marcas (Samsung, Nike, Arno). Atuação no projeto Reppos (B2B).
-- 💲 Implementação de features complexas de manipulação dinâmica de preços no carrinho.
-- ⚡ Otimização de consultas para alto volume de dados, garantindo performance.
-- 🏗️ Padronização de código e aplicação de PSRs e Design Patterns.
+**TrackerUp** — Full-Stack Developer · *Aug 2021 – Apr 2022*
+Field-team management. Modernized a legacy API to **Laravel** with tests (PHPUnit/Jest) and Swagger; integrated payment gateways and media/ads management systems.
 
-#### **TrackerUp** | Full-Stack Developer
-*Ago 2021 - Abr 2022*
-> Gerenciamento de equipes de campo.
-- 🛠️ Modernização de API legada para **Laravel**, implementando testes (PHPUnit/Jest) e Swagger.
-- 💳 Integração de gateways de pagamento e sistemas de gestão de mídia/ads.
+<details>
+<summary><b>Earlier roles (2016 – 2021)</b></summary>
+<br/>
 
-#### **Absam** | Full-Stack Developer
-*Dez 2019 - Ago 2021*
-> Plataforma de Cloud Computing e Automação de Deploy.
-- ☁️ Desenvolvimento de scripts de integração (Elastic Stack) e automação de CI para GitHub/GitLab.
-- 💰 Desenvolvimento de área de afiliados e integração com meios de pagamento (Cielo).
+**Absam** — Full-Stack Developer · *Dec 2019 – Aug 2021*
+Cloud computing & deploy automation platform. Elastic Stack integrations, CI automation for GitHub/GitLab, affiliate area and payment integrations (Cielo).
 
-#### **BenMelhor** | Engenheiro de Software
-*Jul 2017 - Nov 2019*
-> Plataforma de gestão de relacionamento.
-- 📈 Liderança no upgrade de versões do **PHP & Laravel**.
-- 🧹 Refatoração completa de código legado para melhoria de performance.
-- 🏆 Desenvolvimento de sistema de pontuação e gamificação integrado com dados externos.
+**BenMelhor** — Software Engineer · *Jul 2017 – Nov 2019*
+Relationship-management platform. Led **PHP & Laravel** version upgrades, refactored legacy code for performance, and built a gamification/scoring system fed by external data.
 
-#### **Gerenciagram** | Desenvolvedor Backend
-*Jan 2016 - Dez 2016*
-> Automação de marketing para Instagram.
-- 🤖 Desenvolvimento de tarefas automatizadas e aplicação de TDD com Python e PHP.
+**Gerenciagram** — Backend Developer · *Jan 2016 – Dec 2016*
+Instagram marketing automation. Automated tasks and TDD with Python and PHP.
+
+</details>
+
+Full history on [LinkedIn](https://www.linkedin.com/in/eupedrocardoso/).
 
 ---
 
 ## ⚡ GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pedropcardoso&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedropcardoso&layout=compact&theme=tokyonight&hide=html,css"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pedropcardoso&show_icons=true&theme=tokyonight&include_all_commits=true" alt="stats"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedropcardoso&layout=compact&theme=tokyonight&hide=html,css,scss,blade" alt="top languages"/>
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=PedroPCardoso&theme=tokyonight" alt="streak"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroPCardoso/PedroPCardoso/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroPCardoso/PedroPCardoso/output/github-snake.svg"/>
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/PedroPCardoso/PedroPCardoso/output/github-snake.svg"/>
+  </picture>
 </div>
 
 <br/>
@@ -118,3 +163,5 @@ Sou um Engenheiro de Software apaixonado com **8+ anos de experiência**, especi
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=pedropcardoso&style=for-the-badge&color=blueviolet" alt="Profile Views"/>
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:24283b,100:1a1b27&height=120&section=footer" width="100%" alt="footer"/>
