@@ -67,10 +67,10 @@ Full-featured **driving-school CRM** — students, instructors, vehicles, schedu
 
 <div align="center">
   <a href="https://github.com/PedroPCardoso/metrics-kit">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=pedropcardoso&repo=metrics-kit&theme=tokyonight" alt="metrics-kit"/>
+    <img src="https://opengraph.githubassets.com/1/PedroPCardoso/metrics-kit" width="49%" alt="metrics-kit"/>
   </a>
   <a href="https://github.com/PedroPCardoso/OmniAuto">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=pedropcardoso&repo=OmniAuto&theme=tokyonight" alt="OmniAuto"/>
+    <img src="https://opengraph.githubassets.com/1/PedroPCardoso/OmniAuto" width="49%" alt="OmniAuto"/>
   </a>
 </div>
 
@@ -140,8 +140,9 @@ Full history on [LinkedIn](https://www.linkedin.com/in/eupedrocardoso/).
 ## ⚡ GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pedropcardoso&show_icons=true&theme=tokyonight&include_all_commits=true" alt="stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedropcardoso&layout=compact&theme=tokyonight&hide=html,css,scss,blade" alt="top languages"/>
+  <img src="https://raw.githubusercontent.com/PedroPCardoso/PedroPCardoso/master/profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="profile details"/>
+  <img src="https://raw.githubusercontent.com/PedroPCardoso/PedroPCardoso/master/profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="stats"/>
+  <img src="https://raw.githubusercontent.com/PedroPCardoso/PedroPCardoso/master/profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="repos per language"/>
 </div>
 
 <div align="center">
