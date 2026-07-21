@@ -61,16 +61,20 @@ A **modular backend foundation for SaaS products** in PHP 8.4 / Laravel 12 — c
 | [`startup-kit-subscriptions`](https://github.com/PedroPCardoso/startup-kit-subscriptions) | Recurring subscription management |
 | [`startup-kit-notifications`](https://github.com/PedroPCardoso/startup-kit-notifications) | Multi-channel notifications (SendGrid, Twilio, Telegram) |
 
-### 🚗 OmniAuto
+### 🐘 Claude Account Switcher
 
-Full-featured **driving-school CRM** — students, instructors, vehicles, scheduling, exams, finance and a pipeline kanban. **Laravel 11 · Vue 3 · Inertia v2 · Tailwind · PostgreSQL · Redis · Docker.**
+Native macOS menu-bar app to manage and switch between multiple isolated **Claude Code** profiles — auth, history, plugins and MCPs kept fully separate per account. Swaps the active profile for `claude` in any already-open shell, editor or terminal, no aliases required. **Swift · SwiftUI.**
+
+<p>
+  <a href="https://pedropcardoso.github.io/ClaudeAccountSwitcher/"><img src="https://img.shields.io/badge/Landing_Page-000000?style=flat-square&logo=apple&logoColor=white" alt="landing page"/></a>
+</p>
 
 <div align="center">
   <a href="https://github.com/PedroPCardoso/metrics-kit">
     <img src="https://opengraph.githubassets.com/1/PedroPCardoso/metrics-kit" width="49%" alt="metrics-kit"/>
   </a>
-  <a href="https://github.com/PedroPCardoso/OmniAuto">
-    <img src="https://opengraph.githubassets.com/1/PedroPCardoso/OmniAuto" width="49%" alt="OmniAuto"/>
+  <a href="https://github.com/PedroPCardoso/ClaudeAccountSwitcher">
+    <img src="https://opengraph.githubassets.com/1/PedroPCardoso/ClaudeAccountSwitcher" width="49%" alt="Claude Account Switcher"/>
   </a>
 </div>
 
